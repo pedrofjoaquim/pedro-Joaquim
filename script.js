@@ -88,18 +88,19 @@ document.querySelectorAll("nav a, .social-icons a").forEach(link => {
 });
 
 const imagens = [
-  "img/pedro1.jpg",
-  "img/pedro2.jpg",
-  "img/pedro3.jpg",
-  "img/pedro4.jpg",
-  "img/pedro5.jpg",
-  "img/pedro6.jpg",
-  "img/pedro7.jpg",
-  "img/pedro8.jpg",
-  "img/pedro9.jpg",
-  "img/pedro10.jpg",
+  "pedro1.jpg",
+  "pedro2.jpg",
+  "pedro3.jpg",
+  "pedro4.jpg",
+  "pedro5.jpg",
+  "pedro6.jpg",
+  "pedro7.jpg",
+  "pedro8.jpg",
+  "pedro9.jpg",
+  "pedro10.jpg",
 ];
 
 const imagemAleatoria = imagens[Math.floor(Math.random() * imagens.length)];
 document.getElementById("foto-pedro").src = imagemAleatoria;
+
 
